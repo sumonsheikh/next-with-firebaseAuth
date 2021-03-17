@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import {useAuth} from '../auth';
 import Container from '../components/Container';
-import {Flex, Box, Button, Text, Heading, Stack} from "@chakra-ui/react";
+import {Flex, Box, Button, Text, Heading, Stack} from "@chakra-ui/core";
 
 export default function Home() {
   const {user} = useAuth();
